@@ -1,0 +1,84 @@
+.title{
+    color: violet;
+}
+
+/* универсальный
+тег
+класс
+атрибут
+потомок
+ребенок
+соседа
+id*/
+
+body {
+    font-size: 22px;
+}
+
+*{
+    color: tomato;
+}
+
+#text {
+    color: teal;
+}
+
+.text {
+    color: thistle;
+}
+
+[href] {
+    color: yellowgreen;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul a {
+
+}
+
+li > a {
+
+}
+
+.item + .item > a {
+    color: turquoise;
+}
+
+.item {
+    background-color: tomato;
+}
+
+.item {
+    background-color: violet;
+}
+
+.item {
+    background-color: thistle;
+    text-decoration: none;
+}
+#item {
+    background-color: teal;
+}
+
+.item-link {
+background-color: chocolate;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.link:focus{
+    color: burlywood;
+}
+
+.btn {
+    background-color: darkblue;
+}
+
+.btn:active {
+    background-color: coral;
+}
