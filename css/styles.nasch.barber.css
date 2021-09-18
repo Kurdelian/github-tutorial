@@ -1,0 +1,20 @@
+:root{
+    --primary-title-color:#FFFFFF;
+    --secondary-title-color:#303030;
+    --primary-text-color:#555555;
+    --secondary-text-color:#303030;
+    --accent-color:#ff6c00;
+}
+
+body {
+font-family: ;
+letter-spacing: 0.02em;
+}
+
+.header-item {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33px;
+letter-spacing: 0.1em;
+}
+
