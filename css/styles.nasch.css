@@ -25,6 +25,11 @@ body {
 
 .text {
     color: thistle;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 20px solid teal;
+    padding: 20px;
 }
 
 [href] {
@@ -65,8 +70,13 @@ li > a {
 
 .item-link {
 background-color: chocolate;
+margin: 20px;
 }
 
+.item:last-child {
+    background-color: violet;
+}
+ /* есть еще псевдокласс нот, типа задай всем кроме четных */
 .link:hover {
     color: blue;
 }
@@ -82,3 +92,17 @@ background-color: chocolate;
 .btn:active {
     background-color: coral;
 }
+
+.item:nth-child(3) {
+background: yellow;
+}
+
+/* :nth-child(an+b - это для нечетных) */
+/* :nth-child(an - это для нечетных) */
+/* 2*0=0 */
+/* 2*1=2 */
+/* 2*2=4 */
+/* 2*3=6 */
+
+even - нечетные, odd - четные
+
