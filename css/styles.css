@@ -119,3 +119,52 @@
     color: var(--accent-color);
     background-color: var(--primary-white-color);
   }
+
+  .box {
+    border: 5px solid tomato;
+    padding: 20px;
+    margin: 50px;
+  }
+
+  .btn {
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    padding: 20px 40px;
+    border: 3px solid brown;
+    margin-top: 30px;
+    background-color:yellowgreen;
+    color: wheat;
+    border-radius: 7px;
+    text-decoration: none;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background-color: coral;
+    color: darkslategrey;
+    border: 3px solid indigo;
+  }
+
+  .btn-icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    background-color: maroon;
+    vertical-align: middle;
+  }
+
+  .box-to {
+    width: 500px;
+    height: 100px;
+    background-color: mediumorchid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
