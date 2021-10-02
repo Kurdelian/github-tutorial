@@ -238,6 +238,8 @@
     background-color: mediumorchid;
     margin-left: auto;
     margin-right: auto;
+    background-image:url(../img/high-angle-laptop-on-desk-at-office.jpg);
+    background-size: cover;
   }
 
   .container {
